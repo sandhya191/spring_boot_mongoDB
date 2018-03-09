@@ -8,6 +8,13 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
+/**
+ * 
+ * @author Sandhya
+ * Repository of Customer Details
+ *
+ */
+
 public interface CustomerRepository extends MongoRepository<Customer, String> {
 
     public Customer findByFirstName(String firstName);

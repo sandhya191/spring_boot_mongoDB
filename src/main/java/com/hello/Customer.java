@@ -2,6 +2,13 @@ package com.hello;
 
 import org.springframework.data.annotation.Id;
 
+/**
+ * 
+ * @author Sandhya
+ * Details of Customer
+ *
+ */
+
 
 public class Customer {
 
